@@ -9,3 +9,8 @@ function inputInnerValueById(id){
     let convertInnerValueNum = Number(allInnerInputValue);
     return convertInnerValueNum;
 } 
+
+function setInputInnerValueById(id,num){
+    document.getElementById(id).innerText = num;
+    
+} 

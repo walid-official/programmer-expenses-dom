@@ -5,7 +5,7 @@ function inputValueById(id){
 } 
 
 function inputInnerValueById(id){
-    let allInputValue = document.getElementById(id).innerText;
-    let convertInnerValueNum = Number(allInputValue);
+    let allInnerInputValue = document.getElementById(id).innerText;
+    let convertInnerValueNum = Number(allInnerInputValue);
     return convertInnerValueNum;
 } 
